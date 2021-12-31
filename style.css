@@ -1,0 +1,29 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1, p {
+    text-align: center;
+}
+h1::after , h1::before {
+    content: '';
+    width: 150px;
+    height: 4px;
+    background-color: blueviolet;
+    display: block;
+    margin: 20px auto;
+
+}
+
+p::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
